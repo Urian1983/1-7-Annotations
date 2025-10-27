@@ -1,7 +1,7 @@
 package level1.model;
 
 public class OnlineWorkerManager extends WorkerManager {
-   final static double INTERNET_COST = 100;
+   final static double INTERNET_COST = 50.0d;
     public OnlineWorkerManager(String name, String surname, double salaryPerHour) {
         super(name, surname, salaryPerHour);
     }
